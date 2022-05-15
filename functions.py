@@ -17,3 +17,4 @@ print(discounted(100,59,max_discount=60))
 product = {"name": "iPhone 12", "stock": 24, "price": 65432.5,"discount": 21}
 product['with_discount'] = (discounted(product["price"], product['discount']))
 print (product)
+print (f' "Ваша цена после скидки:" {discounted(100,5)}')
